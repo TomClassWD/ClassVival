@@ -4,11 +4,9 @@ disabled_worlds: # This function is responsible for disabling the world where th
   - example_world
 
 enchantments: # This function is responsible for adding enchantments to the pickaxe.
-  enabled: false
+  enabled: true
   list:
     - enchantment: minecraft:efficiency
-      level: 5
-    - enchantment: minecraft:unbreaking
       level: 3
 
 unbreakable_pickaxe: false # This function is responsible for disabling pickaxe breaking.

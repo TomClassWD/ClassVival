@@ -7,7 +7,7 @@ header-footer:
     - ""
   footer:
     - ""
-    - "%animation:web%"
+    - "&fDivertite! &c&l❤"
     - "<#fc0303>&m                                                </#ff2626>"
   disable-condition: '%world%=disabledworld'
   per-world:

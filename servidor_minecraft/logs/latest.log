@@ -234,3 +234,325 @@
 [05:27:11] [Server thread/INFO]: [ADMIN] TomClass joined the game
 [05:27:11] [Server thread/INFO]: TomClass[/[0:0:0:0:0:0:0:1%0]:40806] logged in with entity id 523 at ([world]-350.163707881017, 72.0, 212.76486533598379)
 [05:27:15] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0
+[05:29:13] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:29:13] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:29:13] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:29:13] [Server thread/INFO]: [TAB] Enabled in 6ms
+[05:30:10] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:30:10] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:30:10] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:30:10] [Server thread/INFO]: [TAB] Enabled in 5ms
+[05:30:27] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:30:27] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:30:27] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:30:27] [Server thread/INFO]: [TAB] Enabled in 9ms
+[05:30:45] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:30:45] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:30:45] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:30:45] [Server thread/INFO]: [TAB] Enabled in 7ms
+[05:32:57] [Server thread/INFO]: TomClass issued server command: /reload confirm
+[05:32:57] [Server thread/INFO]: TomClass: Please note that this command is not supported and may cause issues when using some plugins.
+[05:32:57] [Server thread/INFO]: TomClass: If you encounter any issues please use the /stop command to restart your server.
+[05:32:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:32:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:32:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:32:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[05:32:58] [Server thread/INFO]: [Pickaxe3x3] Disabling Pickaxe3x3 v10.5
+[05:32:58] [Server thread/INFO]: [Pickaxe3x3] Pickaxe3x3 plugin disabled.
+[05:32:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+151-f2af952
+[05:32:58] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[05:32:58] [Server thread/INFO]: [MyPetDownloader] Disabling MyPetDownloader v1.2
+[05:32:58] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[05:32:58] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[05:32:58] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[05:32:58] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
+[05:32:58] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:32:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[05:32:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:32:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[05:32:58] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[05:32:58] [Server thread/INFO]: Loaded 1337 recipes
+[05:32:58] [Server thread/INFO]: Loaded 1448 advancements
+[05:32:58] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:32:58] [Paper Async Command Builder Thread Pool - 5/ERROR]: Caught previously unhandled exception :
+[05:32:58] [Paper Async Command Builder Thread Pool - 5/ERROR]: Paper Async Command Builder Thread Pool - 5
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:32:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar'...
+[05:32:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar' in 631ms.
+[05:32:59] [Server thread/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[05:32:59] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - AuthMe (5.6.0-bCUSTOM), Essentials (2.21.0-dev+151-f2af952), EssentialsChat (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), MyPetDownloader (1.2), Pickaxe3x3 (10.5), PlaceholderAPI (2.11.6), SkinsRestorer (15.5.0), TAB (5.0.3), WorldEdit (7.3.9+6959-7adf70b)
+[05:32:59] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[05:33:01] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[05:33:01] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[05:33:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[05:33:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5f6fcee8]
+[05:33:02] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[05:33:02] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[05:33:02] [Server thread/INFO]: [MyPetDownloader] Loading server plugin MyPetDownloader v1.2
+[05:33:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[05:33:02] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+151-f2af952
+[05:33:02] [Server thread/INFO]: [Pickaxe3x3] Loading server plugin Pickaxe3x3 v10.5
+[05:33:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:33:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[05:33:02] [Server thread/INFO]:         __    
+[05:33:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[05:33:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:33:02] [Server thread/INFO]: 
+[05:33:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:33:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:33:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:33:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:33:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1260ms)
+[05:33:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[05:33:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[05:33:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:33:03] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[05:33:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[05:33:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[05:33:05] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[05:33:05] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:33:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[05:33:06] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:33:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.0]
+[05:33:06] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[05:33:06] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.5.0
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: ad418e4
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:33:06] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:33:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:33:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[05:33:06] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[05:33:07] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[05:33:07] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[05:33:07] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[05:33:07] [Server thread/INFO]: [Essentials] Using locale en
+[05:33:07] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[05:33:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[05:33:07] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[05:33:07] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[05:33:07] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[05:33:07] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[05:33:07] [Server thread/INFO]: [TAB] Loaded NMS hook in 15ms
+[05:33:07] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (default) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:33:07] [Server thread/INFO]: [TAB] Enabled in 182ms
+[05:33:07] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[05:33:07] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:33:07] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[05:33:07] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[05:33:07] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[05:33:07] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[05:33:07] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[05:33:07] [Server thread/INFO]: [MyPetDownloader] Enabling MyPetDownloader v1.2
+[05:33:07] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+151-f2af952
+[05:33:07] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[05:33:07] [Server thread/INFO]: [Pickaxe3x3] Enabling Pickaxe3x3 v10.5
+[05:33:07] [Server thread/INFO]: [Pickaxe3x3] Pickaxe3x3 plugin enabled.
+[05:33:08] [Paper Async Command Builder Thread Pool - 6/ERROR]: Caught previously unhandled exception :
+[05:33:08] [Paper Async Command Builder Thread Pool - 6/ERROR]: Paper Async Command Builder Thread Pool - 6
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:33:08] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:33:08] [Server thread/INFO]: TomClass: Reload complete.
+[05:33:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10078ms or 201 ticks behind
+[05:33:08] [Craft Scheduler Thread - 21 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[05:33:08] [Craft Scheduler Thread - 21 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[05:33:08] [Craft Scheduler Thread - 21 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[05:33:08] [Craft Scheduler Thread - 21 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[05:33:08] [Craft Scheduler Thread - 22 - Essentials/INFO]: [Essentials] Fetching version information...
+[05:33:08] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[05:33:13] [Craft Scheduler Thread - 20 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0
+[05:33:19] [Server thread/INFO]: TomClass issued server command: /team join ADMIN
+[05:33:19] [Server thread/INFO]: [[ADMIN] TomClass: Added [ADMIN] TomClass to team [ADMIN]]
+[05:33:21] [Server thread/INFO]: TomClass issued server command: /team join ADMIN
+[05:33:21] [Server thread/INFO]: [[ADMIN] TomClass: Added [ADMIN] TomClass to team [ADMIN]]
+[05:34:34] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:34:34] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:34:34] [Server thread/INFO]: [TAB] [WARN] [config.yml] Configuration section "tablist-name-formatting" has unknown key "format". Valid keys: [enabled, anti-override, disable-condition]
+[05:34:34] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (default) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:34:34] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[05:34:34] [Server thread/INFO]: [TAB] Enabled in 18ms
+[05:34:58] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:34:58] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:34:58] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (default) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:34:58] [Server thread/INFO]: [TAB] Enabled in 14ms
+[05:38:05] [Server thread/INFO]: TomClass issued server command: /pickaxe3x3 reload
+[05:38:08] [Server thread/INFO]: TomClass issued server command: /reload confirm
+[05:38:08] [Server thread/INFO]: TomClass: Please note that this command is not supported and may cause issues when using some plugins.
+[05:38:08] [Server thread/INFO]: TomClass: If you encounter any issues please use the /stop command to restart your server.
+[05:38:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:38:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:38:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:38:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[05:38:08] [Server thread/INFO]: [Pickaxe3x3] Disabling Pickaxe3x3 v10.5
+[05:38:08] [Server thread/INFO]: [Pickaxe3x3] Pickaxe3x3 plugin disabled.
+[05:38:08] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+151-f2af952
+[05:38:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.0
+[05:38:08] [Server thread/INFO]: [MyPetDownloader] Disabling MyPetDownloader v1.2
+[05:38:08] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[05:38:08] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[05:38:08] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[05:38:08] [Server thread/INFO]: [TAB] Disabling TAB v5.0.3
+[05:38:08] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:38:08] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[05:38:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:38:08] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+151-f2af952
+[05:38:08] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[05:38:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[05:38:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[05:38:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:38:08] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:38:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:38:08] [Server thread/INFO]: Loaded 1337 recipes
+[05:38:08] [Server thread/INFO]: Loaded 1448 advancements
+[05:38:08] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:38:08] [Paper Async Command Builder Thread Pool - 8/ERROR]: Caught previously unhandled exception :
+[05:38:08] [Paper Async Command Builder Thread Pool - 8/ERROR]: Paper Async Command Builder Thread Pool - 8
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:38:09] [Server thread/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[05:38:09] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - AuthMe (5.6.0-bCUSTOM), Essentials (2.21.0-dev+151-f2af952), EssentialsChat (2.21.0-dev+151-f2af952), LuckPerms (5.4.150), MyPetDownloader (1.2), Pickaxe3x3 (10.5), PlaceholderAPI (2.11.6), SkinsRestorer (15.5.0), TAB (5.0.3), WorldEdit (7.3.9+6959-7adf70b)
+[05:38:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[05:38:09] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[05:38:09] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[05:38:09] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[05:38:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@78545b13]
+[05:38:09] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[05:38:09] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[05:38:09] [Server thread/INFO]: [MyPetDownloader] Loading server plugin MyPetDownloader v1.2
+[05:38:09] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[05:38:09] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+151-f2af952
+[05:38:09] [Server thread/INFO]: [Pickaxe3x3] Loading server plugin Pickaxe3x3 v10.5
+[05:38:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:38:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[05:38:09] [Server thread/INFO]:         __    
+[05:38:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[05:38:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[05:38:09] [Server thread/INFO]: 
+[05:38:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[05:38:10] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[05:38:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[05:38:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[05:38:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 721ms)
+[05:38:10] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[05:38:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[05:38:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:38:10] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[05:38:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[05:38:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[05:38:11] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[05:38:11] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:38:11] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[05:38:12] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:38:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.5.0]
+[05:38:12] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[05:38:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.5.0
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: ad418e4
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:38:12] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:38:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:38:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[05:38:12] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[05:38:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[05:38:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[05:38:12] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[05:38:12] [Server thread/INFO]: [Essentials] Using locale en
+[05:38:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[05:38:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[05:38:12] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[05:38:12] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[05:38:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[05:38:12] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[05:38:12] [Server thread/INFO]: [TAB] Loaded NMS hook in 12ms
+[05:38:13] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (default) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:38:13] [Server thread/INFO]: [TAB] Enabled in 208ms
+[05:38:13] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[05:38:13] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:38:13] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[05:38:13] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[05:38:13] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[05:38:13] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[05:38:13] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[05:38:13] [Server thread/INFO]: [MyPetDownloader] Enabling MyPetDownloader v1.2
+[05:38:13] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+151-f2af952
+[05:38:13] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[05:38:13] [Server thread/INFO]: [Pickaxe3x3] Enabling Pickaxe3x3 v10.5
+[05:38:13] [Server thread/INFO]: [Pickaxe3x3] Pickaxe3x3 plugin enabled.
+[05:38:13] [Paper Async Command Builder Thread Pool - 9/ERROR]: Caught previously unhandled exception :
+[05:38:13] [Paper Async Command Builder Thread Pool - 9/ERROR]: Paper Async Command Builder Thread Pool - 9
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:536) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:501) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:480) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:38:13] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:38:13] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[05:38:13] [Server thread/INFO]: TomClass: Reload complete.
+[05:38:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5067ms or 101 ticks behind
+[05:38:13] [Craft Scheduler Thread - 27 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[05:38:13] [Craft Scheduler Thread - 27 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[05:38:13] [Craft Scheduler Thread - 27 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[05:38:13] [Craft Scheduler Thread - 30 - Essentials/INFO]: [Essentials] Fetching version information...
+[05:38:13] [Craft Scheduler Thread - 27 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[05:38:17] [Craft Scheduler Thread - 30 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0
+[05:38:21] [Server thread/INFO]: TomClass issued server command: /pickaxe3x3 diamond
+[05:38:23] [Server thread/INFO]: TomClass issued server command: /pickaxe3x3 diamond TomClass
+[05:38:35] [Server thread/INFO]: TomClass issued server command: /deop TomClass
+[05:38:35] [Server thread/INFO]: [[ADMIN] TomClass: Made TomClass no longer a server operator]
+[05:38:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival tomclass
+[05:38:45] [Server thread/INFO]: Set game mode survival for TomClass.
+[05:39:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /xp tomclass 999
+[05:39:03] [Server thread/INFO]: Command Help: /xp
+[05:39:03] [Server thread/INFO]: Description: Give, set, reset, or look at a players experience.
+[05:39:03] [Server thread/INFO]: Usage(s);
+[05:39:03] [Server thread/INFO]: /xp give <player> <amount> - Gives the target player the specified amount of xp
+[05:39:03] [Server thread/INFO]: /xp set <playername> <amount> - Sets the target player's xp the specified amount
+[05:39:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /xp set tomclass 999
+[05:39:07] [Server thread/INFO]: TomClass now has 999 exp.
