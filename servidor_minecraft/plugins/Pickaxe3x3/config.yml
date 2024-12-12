@@ -1,0 +1,22 @@
+language: en # This function is responsible for translating the message in your plugin. (en/ru)
+
+disabled_worlds: # This function is responsible for disabling the world where the pickaxe will not work.
+  - example_world
+
+enchantments: # This function is responsible for adding enchantments to the pickaxe.
+  enabled: false
+  list:
+    - enchantment: minecraft:efficiency
+      level: 5
+    - enchantment: minecraft:unbreaking
+      level: 3
+
+unbreakable_pickaxe: false # This function is responsible for disabling pickaxe breaking.
+
+regions: # Allowed regions for breaking blocks.
+  enabled: false
+  list:
+    - region1
+    - region2
+
+  # Do you still have questions about the plugin, or have you found a bug? Be sure to write reviews on the plugin page.

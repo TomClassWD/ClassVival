@@ -1,89 +1,162 @@
-[03:08:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[03:08:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[03:08:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:08:39] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[03:08:39] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - SkinsRestorer (15.5.0), WorldEdit (7.3.9+6959-7adf70b), voicechat (2.5.26)
-[03:08:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:08:47] [ServerMain/INFO]: Loaded 1337 recipes
-[03:08:47] [ServerMain/INFO]: Loaded 1448 advancements
-[03:08:47] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[03:08:47] [Server thread/INFO]: Loading properties
-[03:08:47] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[03:08:48] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:08:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:08:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:08:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:08:50] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[03:08:50] [Server thread/INFO]: Default game type: SURVIVAL
-[03:08:50] [Server thread/INFO]: Generating keypair
-[03:08:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:08:50] [Server thread/INFO]: Using epoll channel type
-[03:08:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:08:50] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:08:52] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[03:08:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[03:08:53] [Thread-0/INFO]: Stopping server
-[03:08:53] [Thread-0/INFO]: Saving players
-[03:08:53] [Thread-0/WARN]: Asynchronous Save Players! Blocking thread until it returns 
-java.lang.IllegalStateException: null
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:120) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1167) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1163) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1068) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:793) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:1023) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-	at org.bukkit.craftbukkit.util.ServerShutdownThread.run(ServerShutdownThread.java:27) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
-[03:08:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3769a6b1]
-[03:08:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[03:08:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:08:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[03:08:54] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[03:08:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:08:55] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
-[03:08:57] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[03:08:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[03:08:58] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[03:08:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[03:08:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:08:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:08:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:08:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:08:59] [Server thread/INFO]: Preparing level "world"
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[03:08:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[03:09:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:09:01] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[03:09:02] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 651.2ms
-[03:09:02] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:02] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:02] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:03] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:03] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:03] [Server thread/INFO]: Time elapsed: 2312 ms
-[03:09:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:09:03] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:04] [Server thread/INFO]: Time elapsed: 379 ms
-[03:09:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:09:04] [Server thread/INFO]: Preparing spawn area: 0%
-[03:09:04] [Server thread/INFO]: Time elapsed: 262 ms
-[03:09:04] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[03:09:04] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.3-R0.1
-[03:09:04] [Server thread/INFO]: [voicechat] Compatibility version 18
-[03:09:04] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[03:09:05] [Server thread/INFO]: [spark] Starting background profiler...
-[03:09:05] [Server thread/INFO]: Done preparing level "world" (6.043s)
-[03:09:05] [Server thread/INFO]: Running delayed init tasks
-[03:09:05] [Server thread/INFO]: Done (28.724s)! For help, type "help"
-[03:10:10] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[05:08:50] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[05:08:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[05:08:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:08:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/MyPetDownloader-v1.2.jar'...
+[05:08:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/MyPetDownloader-v1.2.jar' in 549ms.
+[05:08:51] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[05:08:51] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - AuthMe (5.6.0-bCUSTOM), Essentials (2.21.0-dev+151-f2af952), EssentialsChat (2.21.0-dev+151-f2af952), MyPetDownloader (1.2), Pickaxe3x3 (10.5), SkinsRestorer (15.5.0), TAB (5.0.3), WorldEdit (7.3.9+6959-7adf70b)
+[05:08:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:08:56] [ServerMain/INFO]: Loaded 1337 recipes
+[05:08:57] [ServerMain/INFO]: Loaded 1448 advancements
+[05:08:57] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[05:08:57] [Server thread/INFO]: Loading properties
+[05:08:57] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[05:08:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:08:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:08:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:08:58] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:08:58] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[05:08:59] [Server thread/INFO]: Default game type: SURVIVAL
+[05:08:59] [Server thread/INFO]: Generating keypair
+[05:08:59] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:08:59] [Server thread/INFO]: Using epoll channel type
+[05:08:59] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:08:59] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:09:00] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+151-f2af952
+[05:09:00] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[05:09:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@33c49de6]
+[05:09:01] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[05:09:01] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[05:09:01] [Server thread/INFO]: [MyPetDownloader] Loading server plugin MyPetDownloader v1.2
+[05:09:01] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[05:09:01] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+151-f2af952
+[05:09:01] [Server thread/INFO]: [Pickaxe3x3] Loading server plugin Pickaxe3x3 v10.5
+[05:09:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:09:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[05:09:01] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[05:09:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[05:09:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_3.PaperweightAdapter as the Bukkit adapter
+[05:09:03] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[05:09:04] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[05:09:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[05:09:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:09:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:09:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:09:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:09:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:09:05] [Server thread/INFO]: Preparing level "world"
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:09:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:09:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:09:06] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[05:09:06] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 463.4ms
+[05:09:06] [Server thread/INFO]: Preparing spawn area: 0%
+[05:09:06] [Server thread/INFO]: Preparing spawn area: 0%
+[05:09:07] [Server thread/INFO]: Preparing spawn area: 0%
+[05:09:07] [Server thread/INFO]: Time elapsed: 1467 ms
+[05:09:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:09:07] [Server thread/INFO]: Preparing spawn area: 0%
+[05:09:07] [Server thread/INFO]: Time elapsed: 244 ms
+[05:09:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:09:07] [Server thread/INFO]: Preparing spawn area: 0%
+[05:09:07] [Server thread/INFO]: Time elapsed: 177 ms
+[05:09:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+151-f2af952
+[05:09:08] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[05:09:08] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[05:09:08] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[05:09:08] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[05:09:08] [Server thread/INFO]: [Essentials] Using locale en
+[05:09:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[05:09:09] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[05:09:09] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[05:09:09] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[05:09:09] [Server thread/INFO]: [TAB] Loaded NMS hook in 44ms
+[05:09:09] [Server thread/INFO]: [TAB] Enabled in 258ms
+[05:09:09] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[05:09:09] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:09:09] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[05:09:09] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[05:09:09] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[05:09:10] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[05:09:10] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[05:09:10] [Server thread/INFO]: [MyPetDownloader] Enabling MyPetDownloader v1.2
+[05:09:10] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+151-f2af952
+[05:09:10] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[05:09:10] [Server thread/INFO]: [Pickaxe3x3] Enabling Pickaxe3x3 v10.5
+[05:09:10] [Server thread/INFO]: [Pickaxe3x3] Pickaxe3x3 plugin enabled.
+[05:09:10] [Server thread/INFO]: [spark] Starting background profiler...
+[05:09:10] [Server thread/INFO]: Done preparing level "world" (5.795s)
+[05:09:10] [Server thread/INFO]: Running delayed init tasks
+[05:09:10] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[05:09:10] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[05:09:10] [Craft Scheduler Thread - 1 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[05:09:10] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[05:09:10] [Craft Scheduler Thread - 1 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[05:09:10] [Server thread/INFO]: Done (21.413s)! For help, type "help"
+[05:09:12] [User Authenticator #0/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:09:14] [TAB Processing Thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:09:14] [Server thread/INFO]: [ADMIN] TomClass joined the game
+[05:09:14] [Server thread/INFO]: TomClass[/[0:0:0:0:0:0:0:1%0]:43830] logged in with entity id 52 at ([world]-400.37287759298624, 72.0, 278.11020765996227)
+[05:09:19] [Craft Scheduler Thread - 3 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0
+[05:09:23] [Async Chat Thread - #0/INFO]: [Not Secure] [ADMIN] TomClass: asd
+[05:09:42] [Server thread/INFO]: TomClass issued server command: /plugins
+[05:09:48] [Server thread/INFO]: TomClass issued server command: /pet
+[05:10:26] [Server thread/INFO]: TomClass issued server command: /mypet
+[05:12:42] [Server thread/INFO]: TomClass issued server command: /reload confirm
+[05:12:45] [Async Chat Thread - #1/INFO]: [Not Secure] [ADMIN] TomClass: asd
+[05:12:48] [Server thread/INFO]: Made TomClass a server operator
+[05:12:54] [Server thread/INFO]: TomClass issued server command: /pet
+[05:12:54] [Async Chat Thread - #1/INFO]: [Not Secure] [ADMIN] TomClass: asd
+[05:12:56] [Server thread/INFO]: TomClass issued server command: /op
+[05:12:58] [Server thread/INFO]: TomClass issued server command: /plugins
+[05:13:53] [Server thread/INFO]: TomClass issued server command: /plugin
+[05:13:54] [Server thread/INFO]: TomClass issued server command: /plugins
+[05:16:23] [User Authenticator #1/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:16:23] [Server thread/INFO]: Disconnecting TomClass (/[0:0:0:0:0:0:0:1%0]:57334): The same username is already playing on the server!
+[05:16:24] [Server thread/INFO]: TomClass (/[0:0:0:0:0:0:0:1%0]:57334) lost connection: The same username is already playing on the server!
+[05:16:28] [User Authenticator #1/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:16:28] [Server thread/INFO]: Disconnecting TomClass (/[0:0:0:0:0:0:0:1%0]:57352): The same username is already playing on the server!
+[05:16:28] [Server thread/INFO]: TomClass (/[0:0:0:0:0:0:0:1%0]:57352) lost connection: The same username is already playing on the server!
+[05:16:44] [Server thread/INFO]: TomClass lost connection: Timed out
+[05:16:44] [Server thread/INFO]: [ADMIN] TomClass left the game
+[05:16:47] [User Authenticator #1/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:16:48] [TAB Processing Thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:16:48] [Server thread/INFO]: [ADMIN] TomClass joined the game
+[05:16:48] [Server thread/INFO]: TomClass[/[0:0:0:0:0:0:0:1%0]:55476] logged in with entity id 288 at ([world]-359.38868199201227, 71.0, 226.20244868185884)
+[05:16:53] [Craft Scheduler Thread - 8 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0
+[05:16:55] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:16:55] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:16:55] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:16:55] [Server thread/INFO]: [TAB] Enabled in 18ms
+[05:17:12] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:17:12] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:17:12] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:17:12] [Server thread/INFO]: [TAB] Enabled in 10ms
+[05:17:26] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:17:26] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:17:26] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:17:26] [Server thread/INFO]: [TAB] Enabled in 11ms
+[05:17:40] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:17:40] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:17:40] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:17:40] [Server thread/INFO]: [TAB] Enabled in 13ms
+[05:18:20] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:18:20] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:18:20] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:18:20] [Server thread/INFO]: [TAB] Enabled in 11ms
+[05:18:44] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:18:44] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:18:44] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
+[05:18:44] [Server thread/INFO]: [TAB] Enabled in 8ms

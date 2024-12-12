@@ -1,0 +1,21 @@
+passwords:
+  TomClass:
+    pass: pompispon
+    logged in: true
+    ip: 0:0:0:0:0:0:0:1%0
+  FabianaMC:
+    pass: '70404846'
+    logged in: false
+    ip: 0:0:0:0:0:0:0:1%0
+  §4TomClass§r:
+    pass: pompispon
+    logged in: true
+    ip: 0:0:0:0:0:0:0:1%0
+  §4FabianaMC§r:
+    pass: '70404846'
+    logged in: false
+    ip: 0:0:0:0:0:0:0:1%0
+  TomClass§r:
+    pass: pompispon
+    logged in: false
+    ip: 0:0:0:0:0:0:0:1%0

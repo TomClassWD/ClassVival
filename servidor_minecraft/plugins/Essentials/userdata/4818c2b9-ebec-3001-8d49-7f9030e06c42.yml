@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1733980604709
+  login: 1733980608868
+money: '0'
+logoutlocation:
+  world: 2406b377-3af1-4bef-a57c-c781bac84e2b
+  world-name: world
+  x: -359.38868199201227
+  y: 71.0
+  z: 226.20244868185884
+  yaw: 6.906982421875
+  pitch: 14.8945894241333
+last-account-name: TomClass
