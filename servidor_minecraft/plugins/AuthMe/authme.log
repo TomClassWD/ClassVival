@@ -56,3 +56,15 @@
 
 [12-12 05:09:19]: [FINE] TomClass logged in 0:0:0:0:0:0:0:1%0
 [12-12 05:16:53]: [FINE] TomClass logged in 0:0:0:0:0:0:0:1%0
+[12-12 05:25:43]: [INFO] Unhooked from Permissions!
+[12-12 05:25:43]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-12 05:25:43]: [INFO] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[12-12 05:25:43]: [INFO] SQLite Setup finished
+[12-12 05:25:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-12 05:26:07]: [FINE] TomClass logged in 0:0:0:0:0:0:0:1%0
+[12-12 05:27:04]: [INFO] Unhooked from Permissions!
+[12-12 05:27:04]: [INFO] No supported permissions system found! Permissions are disabled!
+[12-12 05:27:04]: [INFO] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[12-12 05:27:04]: [INFO] SQLite Setup finished
+[12-12 05:27:04]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[12-12 05:27:15]: [FINE] TomClass logged in 0:0:0:0:0:0:0:1%0

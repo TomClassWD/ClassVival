@@ -160,3 +160,77 @@
 [05:18:44] [Server thread/INFO]: [TAB] Disabled in 1ms
 [05:18:44] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
 [05:18:44] [Server thread/INFO]: [TAB] Enabled in 8ms
+[05:18:51] [Async Chat Thread - #3/INFO]: [Not Secure] [ADMIN] TomClass: asd
+[05:20:05] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:20:05] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:20:05] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:20:05] [Server thread/INFO]: [TAB] Enabled in 7ms
+[05:20:07] [Async Chat Thread - #5/INFO]: [Not Secure] [ADMIN] TomClass: ASD
+[05:20:20] [Async Chat Thread - #5/INFO]: [Not Secure] [ADMIN] TomClass: ASD
+[05:20:21] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:20:21] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:20:21] [Server thread/INFO]: [TAB] Enabled in 5ms
+[05:20:41] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:20:41] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:20:41] [Server thread/INFO]: [TAB] Enabled in 6ms
+[05:20:55] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:20:55] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:20:55] [Server thread/INFO]: [TAB] Enabled in 7ms
+[05:21:23] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:21:23] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:21:23] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:21:23] [Server thread/INFO]: [TAB] Enabled in 10ms
+[05:21:26] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:21:26] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:21:26] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:21:26] [Server thread/INFO]: [TAB] Enabled in 6ms
+[05:21:32] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:21:32] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:21:32] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:21:32] [Server thread/INFO]: [TAB] Enabled in 6ms
+[05:21:42] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:21:42] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:21:42] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:21:42] [Server thread/INFO]: [TAB] Enabled in 5ms
+[05:21:50] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:21:50] [Server thread/INFO]: [TAB] Disabled in 0ms
+[05:21:50] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:21:50] [Server thread/INFO]: [TAB] Enabled in 11ms
+[05:22:25] [Server thread/INFO]: TomClass issued server command: /tab reload
+[05:22:25] [Server thread/INFO]: [TAB] Disabled in 1ms
+[05:22:25] [Server thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:22:25] [Server thread/INFO]: [TAB] Enabled in 6ms
+[05:25:43] [Server thread/INFO]: TomClass issued server command: /authme reload
+[05:25:43] [Server thread/INFO]: [AuthMe] Unhooked from Permissions!
+[05:25:43] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[05:25:43] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[05:25:43] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:25:43] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[05:25:46] [Async Chat Thread - #7/INFO]: [Not Secure] [ADMIN] TomClass: asd
+[05:25:55] [User Authenticator #2/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:25:55] [Server thread/INFO]: Disconnecting TomClass (/[0:0:0:0:0:0:0:1%0]:38342): ¡Este nombre de usuario ya está jugando en el servidor!
+[05:25:55] [Server thread/INFO]: TomClass (/[0:0:0:0:0:0:0:1%0]:38342) lost connection: ¡Este nombre de usuario ya está jugando en el servidor!
+[05:25:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /kick tomclass
+[05:25:59] [Server thread/INFO]: TomClass lost connection: Kicked from server.
+[05:25:59] [Server thread/INFO]: TomClass left the game
+[05:25:59] [Server thread/INFO]: [Essentials] Player Console kicked TomClass for Kicked from server..
+[05:26:01] [User Authenticator #2/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:26:02] [Server thread/INFO]: [ADMIN] TomClass joined the game
+[05:26:02] [TAB Processing Thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:26:02] [Server thread/INFO]: TomClass[/[0:0:0:0:0:0:0:1%0]:51860] logged in with entity id 503 at ([world]-363.68625586226284, 69.0, 251.30000001192093)
+[05:26:07] [Craft Scheduler Thread - 11 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0
+[05:27:04] [Server thread/INFO]: TomClass issued server command: /authme reload
+[05:27:04] [Server thread/INFO]: [AuthMe] Unhooked from Permissions!
+[05:27:04] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[05:27:04] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/ClassVival/servidor_minecraft/plugins/Essentials/spawn.yml'
+[05:27:04] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:27:04] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[05:27:07] [Server thread/INFO]: TomClass issued server command: /kick TomClass
+[05:27:07] [Server thread/INFO]: TomClass lost connection: Kicked from server.
+[05:27:07] [Server thread/INFO]: TomClass left the game
+[05:27:07] [Server thread/INFO]: [Essentials] Player TomClass kicked TomClass for Kicked from server..
+[05:27:09] [User Authenticator #3/INFO]: UUID of player TomClass is 4818c2b9-ebec-3001-8d49-7f9030e06c42
+[05:27:11] [TAB Processing Thread/INFO]: [TAB] [WARN] Player TomClass's group (none) is not in sorting list! Sorting list: admin,mod,especial,sub,vip,canje. Player will be sorted on the bottom.
+[05:27:11] [Server thread/INFO]: [ADMIN] TomClass joined the game
+[05:27:11] [Server thread/INFO]: TomClass[/[0:0:0:0:0:0:0:1%0]:40806] logged in with entity id 523 at ([world]-350.163707881017, 72.0, 212.76486533598379)
+[05:27:15] [Craft Scheduler Thread - 15 - AuthMe/INFO]: [AuthMe] TomClass logged in 0:0:0:0:0:0:0:1%0

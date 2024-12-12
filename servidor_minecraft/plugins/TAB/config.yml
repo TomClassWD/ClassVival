@@ -39,7 +39,7 @@ scoreboard-teams:
   anti-override: true
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
+    - "GROUPS:ADMIN,MOD,ESPECIAL,SUB,VIP,CANJE"
     - "PLACEHOLDER_A_TO_Z:%player%"
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -47,7 +47,7 @@ scoreboard-teams:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
 playerlist-objective:
-  enabled: true
+  enabled: false
   value: "%ping%"
   fancy-value: "&7Ping: %ping%"
   disable-condition: '%world%=disabledworld'
@@ -56,7 +56,7 @@ playerlist-objective:
 belowname-objective:
   enabled: false
   value: "%health%"
-  title: "&cHealth"
+  title: "&cVida"
   fancy-value: "&c%health%"
   fancy-value-default: "NPC"
   disable-condition: '%world%=disabledworld'
